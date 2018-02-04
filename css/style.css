@@ -434,13 +434,14 @@ textarea{
     align-items: center;
     background: #ffffff;
 }
+.store-teaser{
+     width: 240px;
+     height: 49px;
+     background: url("../img/store-tizer.png") center no-repeat;
+ }
 .icon-teaser{
     width: 100px;
     height: 94px;
     background: url("../img/mobile-tizer.png") center no-repeat;
 }
-.store-teaser{
-    width: 240px;
-    height: 49px;
-    background: url("../img/store-tizer.png") center no-repeat;
-}
+
