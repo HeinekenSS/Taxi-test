@@ -1,11 +1,10 @@
 var link = document.querySelector('.btn-comment');
 var text = document.querySelector('textarea');
-
 link.addEventListener('click', function (event) {
     event.preventDefault();
     text.classList.toggle('open');
 });
-    $(function () {
+$(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() != 0) {
             $('#up-top').fadeIn();
