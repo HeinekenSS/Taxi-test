@@ -1,10 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Мск Такси</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 <body>
-
+<header class="taxi-header">
+    <div class="head-wrap">
+        <div class="logo"></div>
+        <div class="link-head">
+            <a href="order.html" target="_blank">Заказать такси</a>
+            <a href="download.html" target="_blank">Скачать приложение</a>
+            <a href="#" target="_blank">Еще</a>
+        </div>
+        <div class="phone">
+            <p>+7 (495) 730-40-40</p>
+            <a href="#" class="modal-call">Заказать обратный звонок</a>
+        </div>
+    </div>
+</header>
+<main class="taxi-main">
+    <div class="background">
+        <div class="main-wrap">
+            <div class="advantages">
+                <h1>Надежное <br> и легальное <span class="taxi-text">такси</span></h1>
+                <div class="advantages-container">
+                    <div class="advantage">
+                        <p>Подача <br> 15 минут</p>
+                    </div>
+                    <div class="advantage">
+                        <div class="decor"></div>
+                        <div class="decor"></div>
+                        <p>Скидка <br> постоянным <br> клиентам</p>
+                    </div>
+                    <div class="advantage">
+                        <p>Желтое <br> такси</p>
+                    </div>
+                </div>
+            </div>
+            <form class="form-booking" action="#" method="get">
+                <input type="text" class="name" placeholder="+7(___)___-__-__">
+                <input type="text" class="name" placeholder="Откуда">
+                <input type="text" class="name" placeholder="Куда">
+                <div class="button">
+                    <button class="btn-now">Сейчас</button>
+                    <button class="btn-later">Позже</button>
+                </div>
+                <input type="text" class="name" placeholder="Услуги">
+                <div class="form-standard">Стандарт от 190 руб.</div>
+                <button class="btn-comment">Комментарий к заказу</button>
+                <textarea name="comment-booking" id="text" cols="38" rows="2" placeholder="Введите комментарий"></textarea>
+                <button class="btn-booking">Заказать такси</button>
+            </form>
+        </div>
+    </div>
+    <div class="white-background">
+        <div class="white-wrap">
+            <div class="app-wrap">
+                <div class="mobile-app">
+                    <div class="mobile-one"></div>
+                    <div class="mobile-two"></div>
+                </div>
+                <div class="download-app">
+                    <h1>Скачай мобильное приложение</h1>
+                    <p>Бесплатное приложение на ваш смартфон, <br> и наш сервис быстро определит ваше</p>
+                    <div class="advantages-container  second">
+                        <div class="advantage">
+                            <p>Подача <br> 15 минут</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="decor"></div>
+                            <div class="decor"></div>
+                            <p>Скидка <br> постоянным <br> клиентам</p>
+                        </div>
+                        <div class="advantage">
+                            <p>Желтое <br> такси</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="store-app"></div>
+            </div>
+        </div>
+    </div>
+    <div class="tariff-wrapper">
+        <div class="tariff-wrap">
+            <h1>Наши тарифы</h1>
+            <div class="btn-wrap">
+                <a href="#" class="btn-tariff  arrow-btn">По городу</a>
+                <a href="#" class="btn-tariff">В аэропорт</a>
+                <a href="#" class="btn-tariff">На целый день</a>
+                <a href="#" class="btn-tariff">Антикризисный</a>
+            </div>
+            <div class="price-wrap">
+                <p class="p-tariff"><span class="span-one">Стандарт</span><span class="span-two">Комфорт</span></p>
+                <div class="info-tariff">
+                    <div class="p-tariff">Минимальный заказ</div>
+                    <div class="p-transparent">Включено в минимальный заказ</div>
+                    <div class="p-tariff">Стоимость 1 минуты далее</div>
+                    <div class="p-transparent">Подача за МКАД</div>
+                    <div class="p-tariff">Поездка за МКАД</div>
+                </div>
+                <div class="price-container">
+                    <div class="standard">
+                        <div class="left-column">
+                            <div class="time">с 8:00 до 20:00</div>
+                            <div class="price">299 руб</div>
+                            <div class="price">15 минут</div>
+                            <div class="price">14 руб.</div>
+                        </div>
+                        <div class="right-column">
+                            <div class="time">с 20:00 до 8:00</div>
+                            <div class="price">349 руб</div>
+                            <div class="price">15 минут</div>
+                            <div class="price">14 руб.</div>
+                        </div>
+                        <div class="price-mkad">+ 15 руб/км</div>
+                        <div class="price-mkad">+ 15 руб/км</div>
+                    </div>
+                    <div class="comfort">
+                        <div class="left-column">
+                            <div class="time">с 8:00 до 20:00</div>
+                            <div class="price">299 руб</div>
+                            <div class="price">15 минут</div>
+                            <div class="price">14 руб.</div>
+                        </div>
+                        <div class="right-column">
+                            <div class="time">с 20:00 до 8:00</div>
+                            <div class="price">349 руб</div>
+                            <div class="price">15 минут</div>
+                            <div class="price">14 руб.</div>
+                        </div>
+                        <div class="price-mkad">+ 15 руб/км</div>
+                        <div class="price-mkad">+ 15 руб/км</div>
+                    </div>
+                </div>
+            </div>
+            <div class="booking">
+                <button class="btn-booking" id="up-top">Заказать такси</button>
+            </div>
+        </div>
+    </div>
+    <div class="white-wrap  two">
+        <div class="client">
+            <a href="#">Корпоротивным клиентам</a>
+            <div class="advantages-container  third">
+                <div class="advantage">
+                    <div class="bicycle">Отсрочка платежа</div>
+                </div>
+                <div class="advantage">
+                    <div class="decor"></div>
+                    <div class="decor"></div>
+                    <div class="bicycle">Конфиденци&shy;альность информации</div>
+                </div>
+                <div class="advantage">
+                    <div class="bicycle">Автомати&shy;ческий рассчет</div>
+                </div>
+            </div>
+            <div class="advantages-container  fourth">
+                <div class="advantage">
+                    <div class="bicycle">Подача <br> 15 минут</div>
+                </div>
+                <div class="advantage">
+                    <div class="decor"></div>
+                    <div class="decor"></div>
+                    <div class="bicycle">Скидка <br> постоянным <br> клиентам</div>
+                </div>
+                <div class="advantage">
+                    <div class="bicycle">Желтое <br> такси</div>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <a href="#">Новости и акции</a>
+            <div class="news-text">
+                <p>С начала 2015 г. по сегодняшний день у нелегальных таксистов было изъято более 1 тыс.
+                    автомобилей.</p>
+                <time>29 июня 2015</time>
+            </div>
+            <div class="news-text">
+                <p>Государственная дума разрабатывает законопроект, в соответствии с которым все
+                водители, долны будут регулярно повышать квалификацию</p>
+                <time>05 июня 2015</time>
+            </div>
+            <div class="news-text">
+                <p>Во &#171;Внуково&#187; к осени такси и автобусы начнут подъезжать прямо ко входу</p>
+                <time>18 мая 2015</time>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="taxi-footer">
+    <div class="footer-wrap">
+        <div class="firm">
+            <p>&#169; 2014 &#171;Мск такси&#187;</p>
+        </div>
+        <div class="contact">
+            <p>+7(495)730-40-40</p>
+            <a href="#" class="modal-call">Заказать обратный звонок</a>
+            <a href="#">Публичная оферта</a>
+        </div>
+        <div class="social">
+            <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+            <script src="//yastatic.net/share2/share.js"></script>
+            <div class="ya-share2" data-services="vkontakte,facebook,twitter"></div>
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>
