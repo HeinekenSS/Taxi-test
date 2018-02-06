@@ -412,7 +412,9 @@ time{
 }
 textarea{
     display: none;
-    margin: -45px 0 7px 175px;
+    width: 280px;
+    height: 40px;
+    margin: -40px 0 7px 175px;
     resize: none;
 }
 .open{
@@ -444,4 +446,3 @@ textarea{
     height: 94px;
     background: url("../img/mobile-tizer.png") center no-repeat;
 }
-
